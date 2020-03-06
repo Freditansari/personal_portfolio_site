@@ -67,15 +67,15 @@ html,h1,h2,h3,h4,h5,h6,a{
     padding-top:20%
 }
 .description h1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     color:#fff;
     font-size: 7em;
     text-align: left;
 }
 /* @mediaquery */
 
-.description button{
-    align-items: center!important;
-}
 
 .nav-item{
     margin-left: 5px;
@@ -95,6 +95,30 @@ html,h1,h2,h3,h4,h5,h6,a{
     background-color: #536DFE;
 }
 
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.scrolling-wrapper .card{
+
+    display: inline-block;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 8px 8px rgba(0,0,0,0.11), 
+    0 16px 16px rgba(0,0,0,0.11), 
+    0 32px 32px rgba(0,0,0,0.11); ;
+}
+
+.scrolling-wrapper iframe{
+    width: 45em;
+    height: 30em;
+    margin-left: 10px;
+}
 @media screen and (max-width: 992px){
     .description{
         padding-top: 50%
@@ -105,7 +129,16 @@ html,h1,h2,h3,h4,h5,h6,a{
         font-size: 3em;
         text-align: left;
     }
+
+    .scrolling-wrapper iframe{
+        width: 20em;
+        height: 17em;
+        margin-left: 10px;
+    }
 }
+
+
+
 /* .description p{
     color: #666;
     font-size: 20px;
