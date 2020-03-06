@@ -4,7 +4,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 
 .header{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; */
     background: url('./images/undraw_progressive_app_m9ms.png');
     background-attachment: fixed;
     background-size: cover;
@@ -99,6 +99,7 @@ html,h1,h2,h3,h4,h5,h6,a{
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+    color: #536DFE;
 }
 
 .scrolling-wrapper .card{
