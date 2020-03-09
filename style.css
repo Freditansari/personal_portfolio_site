@@ -104,7 +104,8 @@ html,h1,h2,h3,h4,h5,h6,a{
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    color: #536DFE;
+    /* color: #536DFE; */
+    color: white;
     margin-bottom: 5em;
     height: 40em;
 }
