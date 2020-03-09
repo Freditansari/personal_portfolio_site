@@ -172,15 +172,26 @@ html,h1,h2,h3,h4,h5,h6,a{
     text-align: center;
     width: 3em;
     font-size: 2em;
+    color:#536DFE;
 }
 .my-desc{
     margin-left: 0.1em;
 }
 
-.courses{
-    height: 30em;
+.courses-services{
+    height: 35em;
 }
 
+
+.feature-images{
+    width:20em;
+    height: 10em;
+}
+
+.feature-row .card{
+    left:5em;
+    margin-top: 1em;
+}
 
 @media screen and (max-width: 992px){
     .description{
@@ -235,6 +246,18 @@ html,h1,h2,h3,h4,h5,h6,a{
     
         font-size: 1.5em;
     }
+
+    
+    .feature-row .card{
+        left:0em;
+        margin-top: 1em;
+    }
+    .courses-services{
+        height: 100em;
+    }
+    
+
+    
     
 
 }
