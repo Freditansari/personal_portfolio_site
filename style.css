@@ -24,6 +24,7 @@ html,h1,h2,h3,h4,h5,h6,a{
     #767679 grey
 */
 
+/*  */
 .btn {
     color: #536DFE!important;
 }
@@ -40,6 +41,7 @@ html,h1,h2,h3,h4,h5,h6,a{
     color: white!important;
 }
 .navbar-brand{
+    
     font-weight: 900;
     color: #536DFE!important;
     font-size: 50px!important;
@@ -50,6 +52,7 @@ html,h1,h2,h3,h4,h5,h6,a{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
     background: transparent;
     z-index: 1;
+    
 }
 
 .courses{
@@ -89,9 +92,15 @@ html,h1,h2,h3,h4,h5,h6,a{
 .fa-bars{
     font-size: 10em;
     background-color: #536DFE;
+    
 }
 
 .scrolling-wrapper {
+    background-image: url('./images/wave.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
@@ -128,7 +137,6 @@ html,h1,h2,h3,h4,h5,h6,a{
 .about-me{
     height: 30em;
 }
-
 .about-me-card{
     margin-top: 9em;
     position: absolute;
@@ -136,6 +144,7 @@ html,h1,h2,h3,h4,h5,h6,a{
     transform: translateY(-50%);
     width: 77em;
     height: 20em;
+    
     box-shadow: 0 1px 1px rgba(0,0,0,0.50), 
     0 2px 2px rgba(0,0,0,0.11), 
     0 4px 4px rgba(0,0,0,0.11), 
@@ -168,6 +177,10 @@ html,h1,h2,h3,h4,h5,h6,a{
     margin-left: 0.1em;
 }
 
+.courses{
+    height: 30em;
+}
+
 
 @media screen and (max-width: 992px){
     .description{
@@ -182,6 +195,7 @@ html,h1,h2,h3,h4,h5,h6,a{
         position: relative;
         top: 50%;
         transform: translateY(-50%);
+        margin-left: 10%;
         width: 20em;
         height: 40em;
         box-shadow: 0 1px 1px rgba(0,0,0,0.50), 
