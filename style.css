@@ -10,7 +10,7 @@ html,h1,h2,h3,h4,h5,h6,a{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height:100vh;
+    height:40em;
 }
 .overlay{
     position: absolute;
@@ -151,7 +151,7 @@ html,h1,h2,h3,h4,h5,h6,a{
     0 4px 4px rgba(0,0,0,0.11), 
     0 8px 8px rgba(0,0,0,0.11), 
     0 16px 16px rgba(0,0,0,0.11), 
-    0 32px 32px rgba(0,0,0,0.11); ;
+    0 32px 32px rgba(0,0,0,0.11); 
 }
 
 .profile-picture img{
@@ -192,6 +192,12 @@ html,h1,h2,h3,h4,h5,h6,a{
 .feature-row .card{
     left:5em;
     margin-top: 1em;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.50), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 8px 8px rgba(0,0,0,0.11), 
+    0 16px 16px rgba(0,0,0,0.11), 
+    0 32px 32px rgba(0,0,0,0.11); 
 }
 
 @media screen and (max-width: 992px){
@@ -252,6 +258,12 @@ html,h1,h2,h3,h4,h5,h6,a{
     .feature-row .card{
         left:0em;
         margin-top: 1em;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.50), 
+        0 2px 2px rgba(0,0,0,0.11), 
+        0 4px 4px rgba(0,0,0,0.11), 
+        0 8px 8px rgba(0,0,0,0.11), 
+        0 16px 16px rgba(0,0,0,0.11), 
+        0 32px 32px rgba(0,0,0,0.11); 
     }
     .courses-services{
         height: 100em;
