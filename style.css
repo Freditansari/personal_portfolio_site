@@ -201,6 +201,20 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 
 @media screen and (max-width: 992px){
+    .courses{
+        height: 15em;
+    }
+
+    .scrolling-wrapper .card{
+        width: 20em;
+        height: 17em;
+    }
+
+    .scrolling-wrapper iframe{
+        width: 17em;
+        height: 13em;
+    }
+
     .description{
         padding-top: 50%
     }
